@@ -1,0 +1,40 @@
+@import "../../static/var";
+
+.nav{
+	height:@tabHeight;
+	background-color: @baseColor;
+	line-height: @tabHeight;
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	width:100%;
+	
+	a{
+		color: @baseFontColor;
+		width:33.3333333%;
+	}
+}
+.carousel img{
+	width:100%;
+}
+.index{
+	padding-bottom: 50px;
+}
+.nav-active{
+	background-color: #AE0502;
+}
+.index-list{
+	background-color: #fff;
+	.list-title{
+		height:30px;
+		display: flex;
+		justify-content: space-between;
+		line-height: 30px;
+		padding:0 15px;
+		h3{
+			margin:0;
+		}
+	}
+}
